@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ line-height: 1.5;
+ font-family: "Open Sans", sans-serif;
+}
+
+
+.dropdown:hover > .dropdown-menu{
+  display: block;
+
+}
+.hov:hover{
+  transform: scale(1.1);
+}
+.lo{
+  width: 300px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+ 
+  display: flex;
+  
+}
+.ooo{
+  font-weight: 1000;
+ margin-left: 150px;
+  margin-top: 180px;
+  font-size: larger;
+   transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lo:hover{
+  opacity: 0.9;
+}
+
+.lo:hover > .ooo{
+  opacity: 1;
+ 
+}
+
+
+.lol{
+  clip-path: circle(68.0% at 71% 63%); 
+  
+  }
+.moon{
+  font-size: large;
+  font-weight: 600;
+}
+
+ @media(max-width:990px)
+ {
+  p{
+    font-size: smaller;
+  }
+  .lol{
+    display: none;
+  }
+  .ooo{
+    display: none;
+  }
+  h4{
+    font-size: smaller;
+  }
+  h3{
+    font-size: smaller;
+  }
+  h2{
+    font-size: smaller;
+  }
+  h1,h6{
+    font-size: smaller;
+  }
+  button{
+    font-size: smaller;
+  }
+ }
